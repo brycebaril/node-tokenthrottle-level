@@ -1,6 +1,6 @@
 {
   "name": "tokenthrottle-level",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Leveldb-backed tokenthrottle implementation. See http://npm.im/tokenthrottle",
   "main": "index.js",
   "directories": {
