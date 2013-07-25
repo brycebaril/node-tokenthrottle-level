@@ -1,0 +1,37 @@
+{
+  "name": "tokenthrottle-level",
+  "version": "1.0.0",
+  "description": "A Redis-backed tokenthrottle implementation. See http://npm.im/tokenthrottle",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tokenthrottle": "~1.0.0",
+    "level-sublevel": "~4.8.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3",
+    "multilevel": "~5.3.1",
+    "level": "~0.12.0",
+    "level-manifest": "~1.1.1"
+  },
+  "scripts": {
+    "test": "tap test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/node-tokenthrottle-level.git"
+  },
+  "keywords": [
+    "throttle",
+    "ratelimit",
+    "multilevel",
+    "leveldb"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/node-tokenthrottle-level/issues"
+  }
+}
